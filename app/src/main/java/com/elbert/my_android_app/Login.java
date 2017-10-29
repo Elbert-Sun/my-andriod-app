@@ -27,7 +27,7 @@ public class Login extends AppCompatActivity {
                     @SuppressLint("SetTextI18n")
                     public void onClick(View view) {
                         if (loginInfoIsVerified(username.getText().toString(), password.getText().toString())) {
-                            message.setText("Hello, Elbert!!!");
+                            message.setText("Hello, Elbert!");
                         } else {
                             message.setText("Login fails!");
                         }
